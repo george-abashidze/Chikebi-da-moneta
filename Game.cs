@@ -58,7 +58,7 @@ namespace Chikebi_da_moneta
                 //თუ თავიდან არჩეული ჭიქაშია მონეტა დავტოვოთ არჩეული ჭიქა და +- 1 ით ახლო ჭიქა
                 if (indexOfCoin == selectedGlass)
                 {
-                    lastGlassIndex = selectedGlass == steps ? steps - 1 : selectedGlass + 1;
+                    lastGlassIndex = selectedGlass == glasses ? glasses - 1 : selectedGlass + 1;
                 }
                 //თუარადა არჩეულ ჭიქასთან ერთად უნდა დავტოვოთ ჭიქა რომელშიც მონეტაა
                 else
