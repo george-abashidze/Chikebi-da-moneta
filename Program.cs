@@ -19,18 +19,8 @@ try
             game.glasses = 3;
 
 
-        Console.WriteLine("cdebis raodenoba: min 1 max 20");
+        Console.WriteLine("cdebis raodenoba");
         game.steps = Convert.ToInt32(Console.ReadLine()?.Trim().Replace(" ", ""));
-
-        if(game.steps > 20)
-            game.steps = 20;
-
-        game.randdomSelections = new int[game.steps];
-
-        for (int i = 0; i < game.steps; i++)
-        {
-            game.randdomSelections[i] = rnd.Next(1, game.glasses + 1);
-        }
 
         Console.WriteLine("kovel cdaze shecvalos tuara archeuli chika boloshi: 1 ki 0 ara");
         game.alwaysChangeSelectedGlassAtEnd = Convert.ToInt32(Console.ReadLine()?.Trim().Replace(" ", "")) == 1;

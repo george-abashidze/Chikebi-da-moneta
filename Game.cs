@@ -23,8 +23,6 @@ namespace Chikebi_da_moneta
         //ყოველ ცდაზე random -ად აირჩიოს ჭიქა თუ არა
         public bool randomSelection;
 
-        public int[]? randdomSelections;
-
         //თუ randomSelection false ა მაშინ ყოველ ცდაზე ამ კონკრეტულ ჭიქას აირჩევს
         public int selectedGlass;
 
@@ -52,7 +50,7 @@ namespace Chikebi_da_moneta
                 //თუ random-ად კომპიუტერმა უნდა აირჩიოს რომელი ჭიქა უნდა
                 if (randomSelection)
                 {
-                    selectedGlass = randdomSelections[i];
+                    selectedGlass = rnd.Next(1,glasses + 1);
                 }
 
                 //თუ თავიდან არჩეული ჭიქაშია მონეტა დავტოვოთ არჩეული ჭიქა და +- 1 ით ახლო ჭიქა
