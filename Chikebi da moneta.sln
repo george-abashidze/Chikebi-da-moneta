@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chikebi da moneta", "Chikebi da moneta.csproj", "{8B4CFDE2-2EFF-400B-9F28-4F7BD274C3C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B4CFDE2-2EFF-400B-9F28-4F7BD274C3C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B4CFDE2-2EFF-400B-9F28-4F7BD274C3C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B4CFDE2-2EFF-400B-9F28-4F7BD274C3C3}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B4CFDE2-2EFF-400B-9F28-4F7BD274C3C3}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3551979-0B94-4AF6-A809-25FF73B6C92C}
+	EndGlobalSection
+EndGlobal
