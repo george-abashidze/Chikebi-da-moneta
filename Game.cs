@@ -85,7 +85,7 @@ namespace Chikebi_da_moneta
                     failCount++;
 
             }
-
+            Console.WriteLine("");
             Console.WriteLine($"Success Count: {succesCount}");
             Console.WriteLine($"Fail Count: {failCount}");
         }
